@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/rounded_background"
+    android:padding="16dp">
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/ttfors"
+        android:gravity="center"
+        android:text="Добавление тренировки"
+        android:textColor="#FFFFFF"
+        android:textSize="23sp"
+        android:textStyle="bold" />
+    <EditText
+        android:id="@+id/editTextWorkoutName"
+        android:layout_width="match_parent"
+        android:fontFamily="@font/ttfors"
+        android:layout_height="wrap_content"
+        android:hint="Название тренировки" />
+
+    <EditText
+        android:id="@+id/editTextWorkoutDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Описание тренировки" />
+
+    <Button
+        android:id="@+id/buttonAdd"
+        android:layout_width="match_parent"
+        android:fontFamily="@font/ttfors"
+        android:backgroundTint="@color/teal_200"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:text="Добавить" />
+</LinearLayout>
